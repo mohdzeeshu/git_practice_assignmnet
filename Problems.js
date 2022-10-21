@@ -3,15 +3,15 @@
 let arr = [1,2,3,4,5,7,13,15,19,23,21]
 let N =13
 let count =0
-for (let i= 1;i<=num;i++){
+for (let i= 1;i<=N;i++){
     if (num%i==0){
         count++
     }
 }
 if ( count==2){
-    console.log(num,"is a prime number")
+    console.log(N,"is a prime number")
 } else{
-    console.log(num , "is not prime number")
+    console.log(N , "is not prime number")
 }
 
 
